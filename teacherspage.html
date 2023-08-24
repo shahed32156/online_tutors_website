@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teachers Details </title>
+    <style>
+
+      body {
+
+        margin: 0;
+        background-image: url(teachers1.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        animation: change 10s infinite ease-in-out;
+      
+      }
+
+      ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            background-color: black;
+            text-align: center;
+            overflow: hidden;
+ 
+         }
+
+li a {
+float: left;
+font-size: 25px;
+padding: 30px;
+text-decoration: none;
+color: white; 
+}
+
+a:hover {
+
+background-color: rgb(246, 10, 10);
+}
+h1 {
+
+    text-shadow: 5px 5px 5px chocolate;
+    color: white;
+    margin-left: 40%;
+}
+
+.container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: 0 0 50px 0 rgb(231, 7, 7);
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-right: 5%;
+    padding-bottom: 28px;
+    background-color: rgba(0, 0, 0, 0.798);
+}
+
+.input1{
+
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+.input1:hover {
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+form {
+
+    font-size: 30px;
+    color: rgb(4, 4, 4);
+}
+
+
+form {
+
+    margin-left: 25%;
+}
+input:hover {
+
+    background-color: rgb(193, 193, 231);
+}
+
+.c1{
+
+margin-left: 5%;
+}
+
+
+.c2{
+
+margin-left: 12.8%;
+}
+.c3{
+
+margin-left: 7%;
+}
+.c4{
+
+margin-left: 7.7%;
+height: 30px;
+width: 150px;
+font-size: 18px; 
+}
+.c5{
+
+margin-left: 1.8%;
+height: 30px;
+width: 230px;
+font-size: 18px; 
+}
+.c6{
+
+margin-left: 13%;
+height: 30px;
+width: 250px;
+font-size: 18px; 
+}
+
+.c6:hover {
+
+    background-color: none;
+}
+
+input {
+
+height: 30px;
+width: 400px;
+font-size: 18px;   
+
+}
+label {
+
+    color: white;
+}
+      @keyframes change {
+
+        0% 
+        {
+
+            background-image: url(teachers1.jpg);
+
+        }
+        20% 
+        {
+
+            background-image: url(teachers2.jpg);
+
+        }
+         40% 
+        {
+
+            background-image: url(teachers3.png);
+
+        }
+        60% 
+        {
+
+            background-image: url(teachers4.jpg);
+
+        } 
+        80% 
+        {
+
+            background-image: url(teachers5.jpg);
+
+        }
+      }
+     
+    </style>
+</head>
+<body >
+
+    <ul>
+
+        <li> <a href="thome.html"> Home </a></li>
+        <li> <a href="tupload.html"> Upload </a></li>
+        <li> <a href="teacherspage.html"> Teacher's info </a></li>
+        <li> <a href="tSearchlist.html"> Searchlist </a></li>
+        <li> <a href="tcontactus.html"> Contact us </a> </li>
+        <li> <a href="home2.html"> Log Out </a> </li>
+      
+    </ul>
+<div class="container"> <br>
+<h1> Teachers Pages </h1> <br><br>
+<form action="">
+<label for=""><b> Full Name : </b></label>
+<input type="text" class="c1"> <br> <br> <br>
+<label for=""><b> Email : </b></label>
+<input type="text" class="c2"> <br> <br> <br>
+<label for=""><b> Phone no : </b></label>
+<input type="number" class="c3"> <br> <br><br>
+<label for=""><b> Location : </b></label>
+<select name="" id="op1" class="c4">
+    <option selected>Select a district</option>
+    <option value="Dhaka">Dhaka</option>
+    <option value="Sylhet">Sylhet</option>
+    <option value="Chottogram">Chottogram</option>
+    <option value="Cumilla">Cumilla</option>
+    <option value="Rajshahi">Rajshahi</option>
+    <option value="Barishal">Barishal</option>
+</select>
+<input type="text" class="c5"> <br> <br> <br>
+<label for=""><b> Photo : </b></label>
+<input type="file" class="c6"> <br> <br><br>
+
+<input class="input1" align="center" style="margin-left:30%;width: 20% ;" type="submit" onclick="hi()"> 
+</form>
+
+</div>
+
+<script>
+
+function hi()
+{
+
+    alert("Submission confirmed");
+}
+
+</script>
+</body>
+
+
+</html>

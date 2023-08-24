@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload</title>
+
+    <style>
+
+
+body {
+
+margin: 0;
+
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+ul {
+margin: 0;
+padding: 0;
+list-style: none;
+background-color: black;
+text-align: center;
+overflow: hidden;
+ 
+}
+
+li a {
+float: left;
+font-size: 25px;
+padding: 30px;
+text-decoration: none;
+color: white; 
+}
+
+a:hover {
+
+background-color: rgb(246, 10, 10);
+}
+
+.c1{
+
+margin-left: 5%;
+}
+
+
+.c2{
+
+margin-left: 7.4%;
+}
+.c3{
+
+margin-left: 3.6%;
+}
+
+input {
+
+height: 25px;
+width: 605px;  
+
+}
+
+form {
+
+    margin-left: 25%;
+}
+
+button {
+
+font-size: 16px;
+color: white;
+height: 40px;
+width: 110px;
+background-color: rgb(9, 195, 9);
+margin-left: 30%;
+
+}
+button:hover {
+background-color: rgb(16, 216, 216);
+}
+
+img {
+
+    height: 400px;
+    width: 1600px;
+}
+    </style>
+</head>
+<body>
+    
+    <ul>
+
+        <li> <a href="shome.html"> Home </a></li>
+        <li> <a href="supload.html"> Upload </a></li>
+        <li> <a href="studentspage.html"> Search Tutor </a></li>
+        <li> <a href="ssearchlist.html"> Searchlist </a></li>
+        <li> <a href="scontactus.html"> Contact us </a> </li>
+        <li> <a href="home2.html"> Log Out </a> </li>
+      
+       </ul>
+       
+       <img src="upload.jpg" alt="">
+       <br><br> <br>
+       <form action="">
+
+        <label for=""> <b>Full name : </b> </label>
+        <input type="text" name="" id="" class="c1"> <br> <br>
+        <label for=""><b>Email :</b>  </label>
+        <input type="text" name="" id="" class="c2" required> <br> <br>
+        <label for="" class="l1"><b>Upload a file :</b> </label>
+        <input type="file" class="c3"> <br> <br>
+        <button onclick="sub()">Upload</button>
+     
+        </form>
+</body>
+
+<script>
+
+function sub () {
+
+    alert ("Sucessfully Uploaded");
+}
+
+</script>
+</html>
